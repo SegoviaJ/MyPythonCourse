@@ -4,8 +4,10 @@ print("That's when she said, \"Everyone doesn't understand!\"")
 print("Here are three backslashes: \\\\\\")
 print("Slashes and quotes slash\\ double quote\" single quote'ok'")
 
-haggis_poem = '''
-Much to his dad and mum's dismay 
+gp='mum'
+
+haggis_poem = f'''
+Much to his dad and {gp}'s dismay 
 Horace ate himself one day 
 He didn't stop to say his grace 
 He just sat down and ate his face 
