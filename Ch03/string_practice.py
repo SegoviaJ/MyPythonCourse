@@ -47,3 +47,4 @@ print("Nancyt\t8\tR\t\t71.12")
 name = 'Francois'
 greeting = f'Bonjour {name}!'
 print(greeting)
+
