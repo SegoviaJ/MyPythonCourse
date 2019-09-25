@@ -3,6 +3,10 @@ import sys
 price = int(sys.argv[1])
 percent = int(sys.argv[2])
 
-discount = str(round(price-percent/100*price,2))
+discount = round(price-percent/100*price,2)
 
-print('$'+sys.argv[1]+' at '+sys.argv[2]+'% discount is $'+discount)
+
+discount = str(discount)
+price=str(price)
+percent=str(percent)
+print('$'+price+' at '+percent+'% discount is $'+discount)
