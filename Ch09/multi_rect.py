@@ -1,5 +1,5 @@
 rect_list=[]
-with open('c:\\course\\MyPythonCourse\\Ch09\\rectangles.txt') as line:
+with open('rectangles.txt') as line:
     while True:
         inst=line.readline().rstrip()
         if not inst:
