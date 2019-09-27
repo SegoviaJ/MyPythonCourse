@@ -1,6 +1,6 @@
 def print_emp_csv(name,email,empid):
-    resp=str(f'{name},{email},{empid}\n')
-    return resp
+    write=str(f'{name},{email},{empid}\n')
+    return write
 
 emp1={'name':'John','email':'john@place.com',"empid":1111}
 emp2={'name':'Dave','email':'dave@place.com',"empid":2222}
